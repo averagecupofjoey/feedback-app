@@ -186,10 +186,16 @@ input:focus {
 }
 
 .about-link {
-  position: absolute;
+  /* position: absolute; */
+  /* position: fixed;
   bottom: 20px;
   right: 20px;
   color: #fff;
+  cursor: pointer; */
+
+  position: relative;
+  left: 96%;
+  color: #ff6a95;
   cursor: pointer;
 }
 
